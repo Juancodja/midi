@@ -1,0 +1,15 @@
+# Ignore everything in this directory
+*
+# Whit !/**/ we white-list the parent folders recursively,  needed if we want to white-list files.
+!/**/   
+
+# Files White-list
+
+!.gitignore
+!README.md
+
+!*.c
+!*.h
+
+!Makefile
+
